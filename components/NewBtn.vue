@@ -11,8 +11,8 @@
         display: inline;
     }
     #New{
-        color: #13ca41;
-        border: 4px solid #13ca41;
+        color: #1a82e4;
+        border: 4px solid #1a82e4;
         padding: 0.25% 3%;
         border-radius: 10%;
         font-size: 120%;
