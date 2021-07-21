@@ -17,6 +17,7 @@
         border-radius: 10%;
         font-size: 120%;
         margin-right: 2.5%;
+        margin-top: .75%;
         float: right;
     }
 </style>
