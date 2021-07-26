@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <Directory />
-    <Header Title='Editor' />
+    <Header Title="Editor" />
     <Editor />
   </div>
 </template>

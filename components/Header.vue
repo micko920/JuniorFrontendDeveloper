@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <p id="title">{{Title}}</p>
+    <p id="title">{{ Title }}</p>
     <NewBtn />
   </div>
 </template>
@@ -21,6 +21,6 @@
 
 <script>
 export default {
-  props: ['Title']
+  props: ['Title'],
 }
 </script>
