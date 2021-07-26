@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <Directory />
-    <Header Title="Job List"/>
+    <Header Title='Job List'/>
     <JobList/>
   </div>
 </template>
