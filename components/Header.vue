@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <p id="title">Job List</p>
+    <p id="title">{{Title}}</p>
     <NewBtn />
   </div>
 </template>
@@ -18,3 +18,9 @@
   display: inline;
 }
 </style>
+
+<script>
+export default {
+  props: ['Title']
+}
+</script>
