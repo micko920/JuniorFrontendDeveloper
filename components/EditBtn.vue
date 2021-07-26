@@ -1,6 +1,6 @@
 <template>
     <div id="Btn">
-        <button id="New" elevation="2" @click="goTo()"><b>Editor</b></button>
+        <button id="edit" elevation="2" @click="goTo()"><b>Editor</b></button>
     </div>
 </template>
 
