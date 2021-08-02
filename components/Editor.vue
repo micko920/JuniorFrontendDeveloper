@@ -1,24 +1,15 @@
 <template>
-  <div id="content">
+  <div class="content">
     <table>
       <tr>
-        <td id="file">
-          <p
-            style="
-              background-color: lightblue;
-              padding-left: 5%;
-              border-radius: 5%;
-            "
-          >
-            Helloworld.py
-          </p>
+        <td class="w-1/10 pr-2">
+          <EditorMenu />
         </td>
-        <td id="editor">
-          <iframe
-            width="100%"
-            height="700px"
-            src="https://repl.it/@amasad/PitifulLastingWhoopingcrane?lite=true"
-          ></iframe>
+        <td class="file w-1/5 m-0">
+          <p class="pl-2 bg-blue-200 rounded">Helloworld.py</p>
+        </td>
+        <td class="w-3/4 align-top">
+          <Tiptap />
         </td>
       </tr>
     </table>
@@ -28,20 +19,12 @@
 <style>
 table {
   border: none;
-  margin-left: auto;
-  margin-right: auto;
+  margin: none;
 }
-tr {
-  min-width: 100%;
-}
-#content {
+.content {
   padding-top: 2%;
 }
-#editor {
-  min-width: 60vw;
-}
-#file {
-  min-width: 12vw;
+.file {
   margin-top: auto;
   vertical-align: top;
   padding-left: 0.5%;

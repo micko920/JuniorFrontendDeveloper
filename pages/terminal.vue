@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <Directory />
-    <Header Title="Terminal" />
+    <Header Title="Job Log" />
     <Terminal />
   </div>
 </template>

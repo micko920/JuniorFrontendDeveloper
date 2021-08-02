@@ -1,5 +1,5 @@
 <template>
-  <div id="body">
+  <div>
     <table>
       <thead>
         <tr>
@@ -17,6 +17,7 @@
           <td>WAD-43</td>
           <td>10.10.2002</td>
           <td>01:30:39<br />2 hours ago</td>
+          <td><DropMenu /></td>
         </tr>
         <tr>
           <td><ErrorBtn /></td>
@@ -24,6 +25,7 @@
           <td>WAD-43</td>
           <td>10.10.2002</td>
           <td>01:30:39<br />2 hours ago</td>
+          <td><DropMenu /></td>
         </tr>
       </tbody>
     </table>

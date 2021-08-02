@@ -2,7 +2,7 @@
   <div>
     <output></output>
     <div id="input-line" class="input-line">
-      <div class="prompt">> Welcome to the terminal <br /></div>
+      <div class="prompt">> Welcome to the Job Log <br /></div>
       <div id="prompt"><input class="cmdline" autofocus /></div>
     </div>
   </div>
